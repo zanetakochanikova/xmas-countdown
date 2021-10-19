@@ -1,0 +1,48 @@
+
+.countdown-layout {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+
+  .title {
+    justify-content: center;
+    align-items: end;
+    height: 30vh;
+    font-size: 40px;
+    font-weight: lighter;
+  }
+
+  .countdown-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+    .col-element {
+      margin: 10px;
+      text-align: center;
+    }
+    .value {
+      background: #dbe6eb;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 13px;
+      box-shadow: 10px 10px 10px grey;
+      font-size: xx-large;
+    }
+  }
+}
+
+.ant-message-notice {
+  .ant-message-notice-content {
+    padding: 15px 30px;
+    background: #b92121;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px grey;
+    font-size: 40px;
+    cursor: pointer;
+  }
+}
+
